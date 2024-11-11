@@ -1,11 +1,12 @@
 import React from 'react'
+import Image from 'next/image';
 
 
 const Hero = () => {
   return (
     <section id="home"className="bg-black text-white h-screen flex items-center justify-center">
 <div className="text-center">
-  <img
+  <Image
     src="/Profile-picture-Nousheen.jpeg"
     alt="Profile"
     className="mx-auto mb-4 w-32 h-32 object-cover rounded-full"
@@ -14,7 +15,7 @@ const Hero = () => {
         <div className="text-center">
         <h1  data-aos="flip-left" className="text-4xl md:text-6xl font-bold mb-4">Welcome to My Portfolio</h1>
         <p data-aos="flip-right" className="text-lg md:text-xl mb-6">
-          I'm Nousheen, a passionate web developer and AI enthusiast.
+          I am Nousheen, a passionate web developer and AI enthusiast.
         </p>
         <a
           href="#about"

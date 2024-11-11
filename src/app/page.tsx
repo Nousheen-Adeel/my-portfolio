@@ -23,7 +23,7 @@ export default function Home(){
       anchorPlacement: 'top-bottom',
       offset: 160,
      });
-     AOS.refresh
+    //  AOS.refresh
   }, []);
   
   return(
